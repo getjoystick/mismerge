@@ -24,7 +24,7 @@
 	},
 	"dependencies": {
 		"@speed-highlight/core": "^1.2.4",
-		"@mismerge/core": "workspace:*",
+		"@getjoystick/mismerge-core": "workspace:*",
 		"dedent": "^1.5.1"
 	},
 	"type": "module"
