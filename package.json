@@ -6,7 +6,7 @@
 	"author": "BearToCode",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/getjoystick/mismerge.git"
+		"url": "https://github.com/BearToCode/mismerge.git"
 	},
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",

@@ -1,5 +1,5 @@
 {
-	"name": "@getjoystick/mismerge-core",
+	"name": "@mismerge/core",
 	"version": "0.0.1",
 	"description": "A modern merge editor for the Web",
 	"license": "MIT",

@@ -56,7 +56,7 @@ importers:
 
   demo:
     dependencies:
-      '@getjoystick/mismerge-core':
+      '@mismerge/core':
         specifier: workspace:*
         version: link:../packages/core
       '@speed-highlight/core':

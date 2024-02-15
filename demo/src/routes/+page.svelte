@@ -5,7 +5,7 @@
 		MisMerge3,
 		type EditorColors,
 		DefaultLightColors
-	} from '@getjoystick/mismerge-core';
+	} from '@mismerge/core';
 	import {
 		component,
 		ctr,
@@ -25,9 +25,9 @@
 	import Toolbar from '$lib/components/Toolbar.svelte';
 
 	import '$lib/styles/styles.css';
-	import '@getjoystick/mismerge-core/styles.css';
-	import mismergeLightStyle from '@getjoystick/mismerge-core/light.css?raw';
-	import mismergeDarkStyle from '@getjoystick/mismerge-core/dark.css?raw';
+	import '@mismerge/core/styles.css';
+	import mismergeLightStyle from '@mismerge/core/light.css?raw';
+	import mismergeDarkStyle from '@mismerge/core/dark.css?raw';
 	import codeLightStyle from '$lib/styles/code-light.css?raw';
 	import codeDarkStyle from '$lib/styles/code-dark.css?raw';
 	import Footer from '$lib/components/Footer.svelte';

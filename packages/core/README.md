@@ -1,6 +1,6 @@
 <div align="right">
-<a href="https://www.npmjs.com/package/@getjoystick/mismerge-core"><img src="https://img.shields.io/npm/v/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=npm&logoColor=white" alt="npm"></a>
-<a href="https://bundlephobia.com/package/@getjoystick/mismerge-core"><img src="https://img.shields.io/bundlephobia/min/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=javascript&logoColor=white" alt="bundle"></a>
+<a href="https://www.npmjs.com/package/@mismerge/core"><img src="https://img.shields.io/npm/v/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=npm&logoColor=white" alt="npm"></a>
+<a href="https://bundlephobia.com/package/@mismerge/core"><img src="https://img.shields.io/bundlephobia/min/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=javascript&logoColor=white" alt="bundle"></a>
 <a href="https://github.com/BearToCode/mismerge/blob/master/LICENSE"><img src="https://img.shields.io/github/license/beartocode/mismerge?color=6a7fec&labelColor=171d27&logo=git&logoColor=white" alt="license"></a>
 <a href="http://beartocode.github.io/mismerge/"><img src="https://img.shields.io/badge/available-red?label=demo&color=6a7fec&labelColor=171d27&logo=svelte&logoColor=white" alt="demo"></a>
 </div>
@@ -26,19 +26,19 @@ Mismerge is a modern two-way and one-way merge editor for the web, built with Sv
 ## Installation
 
 ```
-npm i @getjoystick/mismerge-core
+npm i @mismerge/core
 ```
 
 ## Usage
 
 ```svelte
 <script>
-	import { MisMerge3 } from '@getjoystick/mismerge-core';
+	import { MisMerge3 } from '@mismerge/core';
 	// Core styles, required for the editor to work properly
-	import '@getjoystick/mismerge-core/styles.css';
+	import '@mismerge/core/styles.css';
 
-	import '@getjoystick/mismerge-core/light.css';
-	// Or  '@getjoystick/mismerge-core/dark.css';
+	import '@mismerge/core/light.css';
+	// Or  '@mismerge/core/dark.css';
 
 	let lhs = 'foo';
 	let ctr = 'bar';
@@ -78,7 +78,7 @@ You need to provide your own syntax highlighter. Example and demo using [Speed-H
 
 ```svelte
 <script>
-	import { DefaultDarkColors } from '@getjoystick/mismerge-core';
+	import { DefaultDarkColors } from '@mismerge/core';
 	// ...
 </script>
 
