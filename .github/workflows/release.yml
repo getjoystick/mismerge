@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - release/vanilla-into-joystick
 
 permissions:
   contents: read
