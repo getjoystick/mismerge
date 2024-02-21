@@ -1,16 +1,16 @@
 <div align="right">
-<a href="https://www.npmjs.com/package/@mismerge/core"><img src="https://img.shields.io/npm/v/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=npm&logoColor=white" alt="npm"></a>
-<a href="https://bundlephobia.com/package/@mismerge/core"><img src="https://img.shields.io/bundlephobia/min/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=javascript&logoColor=white" alt="bundle"></a>
-<a href="https://github.com/BearToCode/mismerge/blob/master/LICENSE"><img src="https://img.shields.io/github/license/beartocode/mismerge?color=6a7fec&labelColor=171d27&logo=git&logoColor=white" alt="license"></a>
-<a href="http://beartocode.github.io/mismerge/"><img src="https://img.shields.io/badge/available-red?label=demo&color=6a7fec&labelColor=171d27&logo=svelte&logoColor=white" alt="demo"></a>
+<a href="https://www.npmjs.com/package/@getjoystick/mismerge-core"><img src="https://img.shields.io/npm/v/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=npm&logoColor=white" alt="npm"></a>
+<a href="https://bundlephobia.com/package/@getjoystick/mismerge-core"><img src="https://img.shields.io/bundlephobia/min/%40mismerge%2Fcore?color=6a7fec&labelColor=171d27&logo=javascript&logoColor=white" alt="bundle"></a>
+<a href="https://github.com/getjoystick/mismerge/blob/master/LICENSE"><img src="https://img.shields.io/github/license/getjoystick/mismerge?color=6a7fec&labelColor=171d27&logo=git&logoColor=white" alt="license"></a>
+<a href="http://getjoystick.github.io/mismerge/"><img src="https://img.shields.io/badge/available-red?label=demo&color=6a7fec&labelColor=171d27&logo=svelte&logoColor=white" alt="demo"></a>
 </div>
 
-<img alt="banner" src="https://raw.githubusercontent.com/BearToCode/mismerge/master/images/banner-light.png#gh-light-mode-only" />
-<img alt="banner" src="https://raw.githubusercontent.com/BearToCode/mismerge/master/images/banner-dark.png#gh-dark-mode-only" />
+<img alt="banner" src="https://raw.githubusercontent.com/getjoystick/mismerge/master/images/banner-light.png#gh-light-mode-only" />
+<img alt="banner" src="https://raw.githubusercontent.com/getjoystick/mismerge/master/images/banner-dark.png#gh-dark-mode-only" />
 
 ## A web-based merge editor
 
-Mismerge is a modern two-way and one-way merge editor for the web, built with Svelte. You can [visit the demo](https://beartocode.github.io/mismerge/) and start merging now, or use it as a component for your project.
+Mismerge is a modern two-way and one-way merge editor for the web, built with Svelte. You can [visit the demo](https://getjoystick.github.io/mismerge/) and start merging now, or use it as a component for your project.
 
 ## Features
 
@@ -27,19 +27,19 @@ Mismerge is a modern two-way and one-way merge editor for the web, built with Sv
 ## Installation
 
 ```
-npm i @mismerge/core
+npm i @getjoystick/mismerge-core
 ```
 
 ## Usage
 
 ```svelte
 <script>
-	import { MisMerge3 } from '@mismerge/core';
+	import { MisMerge3 } from '@getjoystick/mismerge-core';
 	// Core styles, required for the editor to work properly
-	import '@mismerge/core/styles.css';
+	import '@getjoystick/mismerge-core/styles.css';
 
-	import '@mismerge/core/light.css';
-	// Or  '@mismerge/core/dark.css';
+	import '@getjoystick/mismerge-core/light.css';
+	// Or  '@getjoystick/mismerge-core/dark.css';
 
 	let lhs = 'foo';
 	let ctr = 'bar';
@@ -83,7 +83,7 @@ You need to provide your own syntax highlighter. Example and demo using [Shiki-J
 
 ```svelte
 <script>
-	import { DefaultDarkColors } from '@mismerge/core';
+	import { DefaultDarkColors } from '@getjoystick/mismerge-core';
 	// ...
 </script>
 
@@ -92,7 +92,7 @@ You need to provide your own syntax highlighter. Example and demo using [Shiki-J
 
 ### Styles
 
-If you want to customize the editor styles, you can copy the default [light](https://github.com/BearToCode/mismerge/blob/master/packages/core/src/lib/styles/light.css) or [dark](https://github.com/BearToCode/mismerge/blob/master/packages/core/src/lib/styles/dark.css) theme and adapt it to your need.
+If you want to customize the editor styles, you can copy the default [light](https://github.com/getjoystick/mismerge/blob/master/packages/core/src/lib/styles/light.css) or [dark](https://github.com/getjoystick/mismerge/blob/master/packages/core/src/lib/styles/dark.css) theme and adapt it to your need.
 
 Here is a basic explanation of how the the rendered html looks like:
 
@@ -186,7 +186,7 @@ Events:
 Clone the repo:
 
 ```
-git clone https://github.com/BearToCode/mismerge.git
+git clone https://github.com/getjoystick/mismerge.git
 cd mismerge
 ```
 

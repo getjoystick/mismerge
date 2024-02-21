@@ -7,7 +7,7 @@
 		MisMerge3,
 		type EditorColors,
 		DefaultLightColors
-	} from '@mismerge/core';
+	} from '@getjoystick/mismerge-core';
 	import {
 		component,
 		ctr,
@@ -23,14 +23,14 @@
 	} from '$lib/stores';
 	import { loadDynamicStylesheet } from '$lib/dynamic-css';
 	import Toolbar from '$lib/components/Toolbar.svelte';
-	import mismergeLightStyle from '@mismerge/core/light.css?raw';
-	import mismergeDarkStyle from '@mismerge/core/dark.css?raw';
+	import mismergeLightStyle from '@getjoystick/mismerge-core/light.css?raw';
+	import mismergeDarkStyle from '@getjoystick/mismerge-core/dark.css?raw';
 	import codeLightStyle from '$lib/styles/code-light.css?raw';
 	import codeDarkStyle from '$lib/styles/code-dark.css?raw';
 	import Footer from '$lib/components/Footer.svelte';
 
 	import '$lib/styles/styles.css';
-	import '@mismerge/core/styles.css';
+	import '@getjoystick/mismerge-core/styles.css';
 
 	let mounted = false;
 	let unloadStylesheets: (() => void)[] = [];
